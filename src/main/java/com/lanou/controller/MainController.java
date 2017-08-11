@@ -16,6 +16,8 @@ public class MainController {
 		
 //		git²âÊÔ
 		
+		//´úÂë³åÍ»A
+		
 		//********************************************
 		
 		return "index";
