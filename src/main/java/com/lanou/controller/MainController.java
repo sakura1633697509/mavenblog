@@ -10,10 +10,23 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class MainController {
 
+	
 	@RequestMapping(value = "/")
 	public String frontPage() {
+		
+//		git≤‚ ‘
+		
+		
 		return "index";
 	}
+	
+	
+//	-----------------------------------------------------------------------
+	
+//	@RequestMapping(value = "/")
+//	public String frontPage() {
+//		return "index";
+//	}
 
 	// µΩµ«¬ºΩÁ√Ê
 	@RequestMapping(value = "/loginpage")
